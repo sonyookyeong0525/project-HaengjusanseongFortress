@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>행주산성</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-4.0.0.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <h1 class="logo">
+      <img src="img/logo/logo4.png" alt="행주산성 로고">
+    </h1>
+    <div class="hamburger_btn"><img src="img/icon/icon_hamburger.png" alt="햄버거 버튼"></div>
+    <nav>
+      <ul>
+        <li><a href="#none">행주산성소개</a></li>
+        <li><a href="#none">역사문화</a></li>
+        <li><a href="#none">탐방</a></li>
+        <li><a href="#none">주변명소</a></li>
+        <li><a href="#none">커뮤니티</a></li>
+      </ul>
+    </nav>
+    <div class="related_site">
+      <a href="https://www.goyang.go.kr/visitgoyang/www/index.do">고양특례시문화관광</a>
+    </div>
+    <div class="util">
+      <div class="utii_weather">
+        <img id="weather-icon" src="" alt="날씨 아이콘">
+        <span id="tooltip-text" class="tooltip-text">날씨 상태</span>
+        <span class="util_label">날씨</span>
+      </div>
+      <div class="utii_search">
+        <div class="search_btn">
+          <img src="img/icon/icon_search.png" alt="검색">
+        </div>
+        <div class="search_wrap">
+          <from class="search_box">
+            <input type="search" id="main_search" name="mainsearch" placeholder="검색어를 입력해주세요">
+            <button><img src="img/icon/icon_search.png" alt="검색"></button>
+          </from>
+        </div>
+        <span class="util_label">검색</span>
+      </div>
+      <div class="utii_member">
+        <a href="#"><img src="img/icon/icon_member.png" alt="로그인"></a>
+        <span class="util_label">로그인</span>
+      </div>
+      <div class="utii_language">
+        <div class="lang_btn">
+          <img src="img/icon/icon_language.png" alt="언어변경">
+        </div>
+        <div class="lang_layer">
+			  	<ul>
+			  		<li><a href="#" target="_blank" title="새창">한국어</a></li>
+			  		<li><a href="#" target="_blank" title="새창">영어</a></li>
+          </ul>
+        </div>
+        <span class="util_label">언어</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="main_visual">
+      <div class="visual_txt">
+        <h2>선조의 정신이 깃든 아름다운 문화유산</h2>
+        <h1>행주산성</h1>
+      </div>
+    </section>
+    <section class="map">
+      <div class="tit">
+        <h2>행주산성 지도</h2>
+        <p>행주산성의 주요 장소를 한눈에 확인해보세요.</p>
+      </div>
+      <div class="map_container">
+        <div class="map_wrapper">
+          <img src="img/map_line.png" alt="행주산성 지도" class="map_bg_img">
+          <div class="icon_position icon0" style="width: 10%;">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_0.png">
+              </div>
+              <div class="map_pin pin0">
+                <div class="tooltip left">
+                  <div class="pin_img">
+                      <img src="img/tooltip_00.jpg" alt="행주산성 주차장">
+                  </div>
+                  <div class="pin_text">
+                    <span>행주산성 주차장</span>
+                    <p>
+                      행주산성 부설 주차장 요금 안내 <br>
+                      주차요금 : 주차 1구획당 2,200원 <br>
+                      비고 : 매주 월요일 주차요금 무료 <br>
+                      적용일자 : 2026년 1월 1일 (목) <br>
+                      ※ 2028년까지 매년 10%씩 단계별 인상 예정
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon1">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_1.png">
+              </div>
+              <div class="map_pin pin1">
+                <div class="tooltip left">
+                  <div class="pin_img">
+                      <img src="img/tooltip_01.png" alt="행주산성 대첩문">
+                  </div>
+                  <div class="pin_text">
+                    <span>대첩문</span>
+                    <p>
+                      대첩문은 1970년 건립하였으며 행주산성으로 들어가는 주 출입문입니다. 지붕 안쪽에 홍살문을 넣어 행주산성의 숭고함을 상징하고 있습니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon2" style="width: 13%;">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_2.png">
+              </div>
+              <div class="map_pin pin2">
+                <div class="tooltip right">
+                  <div class="pin_img">
+                      <img src="img/tooltip_02.jpg" alt="행주산성 충훈정">
+                  </div>
+                  <div class="pin_text">
+                    <span>충훈정</span>
+                    <p>
+                      행주산성의 '충훈정'은 나라를 위해 헌신한 선조들의 호국 정신을 기리기 위해 1986년에 건립된 2층 누각 구조의 국궁장(활터)입니다.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon3" style="width: 7%;">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_3.png">
+              </div>
+              <div class="map_pin pin3">
+                <div class="tooltip bottom">
+                  <div class="pin_img">
+                      <img src="img/tooltip_03.jpg" alt="행주산성 권율도원수상">
+                  </div>
+                  <div class="pin_text">
+                    <span>권율 도원수 상</span>
+                    <p>
+                      행주산성의 '권율 장군 동상(도원수상)'은 행주대첩을 승리로 이끈 군 총사령관 권율 장군의 위엄을 기리기 위해 1986년에 세워진 8m 높이의 동상입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon4">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_4.png">
+              </div>
+              <div class="map_pin pin4">
+                <div class="tooltip top_right">
+                  <div class="pin_img">
+                      <img src="img/tooltip_04.jpg" alt="행주산성 전사청">
+                  </div>
+                  <div class="pin_text">
+                    <span>전사청</span>
+                    <p>
+                      행주산성의 '전사청(典祀廳)'은 1987년에 건립된 곳으로, 권율 장군의 사당인 '충장사'에서 치러지는 제전행사 때 필요한 제기(祭器)와 의관(衣冠) 등을 보관하는 장소입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon5">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_5.png">
+              </div>
+              <div class="map_pin pin5">
+                <div class="tooltip right">
+                  <div class="pin_img">
+                      <img src="img/tooltip_05.jpg" alt="행주산성 충장사">
+                  </div>
+                  <div class="pin_text">
+                    <span>충장사</span>
+                    <p>
+                      행주산성의 '충장사(忠莊祠)'는 임진왜란 당시 행주대첩을 승리로 이끈 도원수 권율 장군의 영정을 모신 사당입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon6">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_6.png">
+              </div>
+              <div class="map_pin pin6">
+                <div class="tooltip right">
+                  <div class="pin_img">
+                      <img src="img/tooltip_06.jpg" alt="행주산성 대첩기념관">
+                  </div>
+                  <div class="pin_text">
+                    <span>대첩기념관</span>
+                    <p>
+                      행주산성의 '대첩기념관(大捷紀念館)'은 임진왜란 3대 대첩 중 하나인 행주대첩의 승전을 기념하고 역사적 가치를 전하기 위해 건립된 전시관입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon7">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_7.png">
+              </div>
+              <div class="map_pin pin7">
+                <div class="tooltip bottom">
+                  <div class="pin_img">
+                      <img src="img/tooltip_07.jpg" alt="행주산성 충의정">
+                  </div>
+                  <div class="pin_text">
+                    <span>충의정</span>
+                    <p>
+                      행주산성 정상부에 위치한 '충의정(忠義亭)'은 임진왜란과 행주대첩의 역사적 의미를 널리 알리기 위해 건립된 영상교육관입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon8" style="width: 17%;">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_8.png">
+              </div>
+              <div class="map_pin pin8">
+                <div class="tooltip bottom">
+                  <div class="pin_img">
+                      <img src="img/tooltip_08.jpg" alt="행주산성 행주대첩비">
+                  </div>
+                  <div class="pin_text">
+                    <span>행주대첩비</span>
+                    <p>
+                      행주산성 정상부에 위치한 '충의정(忠義亭)'은 임진왜란과 행주대첩의 역사적 의미를 널리 알리기 위해 건립된 영상교육관입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon9" style="width: 8%;">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_9.png">
+              </div>
+              <div class="map_pin pin9">
+                <div class="tooltip bottom">
+                  <div class="pin_img">
+                      <img src="img/tooltip_09.jpg" alt="행주산성 행주대첩초건비">
+                  </div>
+                  <div class="pin_text">
+                    <span>행주대첩초건비</span>
+                    <p>
+                      행주산성의 '행주대첩 초건비'는 앞서 언급된 '행주대첩 구비(舊碑)'의 공식 명칭으로, 1602년(선조 35년) 권율 장군의 부하 장수들이 장군의 공을 기리고 승전을 기념하기 위해 최초(초건)로 세운 비석입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon10" style="width: 8%;">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_10.png">
+              </div>
+              <div class="map_pin pin10">
+                <div class="tooltip bottom">
+                  <div class="pin_img">
+                      <img src="img/tooltip_10.jpg" alt="행주산성 덕양정">
+                  </div>
+                  <div class="pin_text">
+                    <span>덕양정</span>
+                    <p>
+                      행주산성 정상부 바로 아래에 위치한 '덕양정(德陽亭)'은 1970년 행주산성 대대적인 정화사업 때 건립된 전통 정자입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon11" style="width: 11%;">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_11.png">
+              </div>
+              <div class="map_pin pin11">
+                <div class="tooltip right">
+                  <div class="pin_img">
+                      <img src="img/tooltip_11.jpg" alt="행주산성 진강정">
+                  </div>
+                  <div class="pin_text">
+                    <span>진강정</span>
+                    <p>
+                      행주산성 정상부 아래에 위치한 '진강정(鎭江亭)'은 1970년 행주산성 보수정화사업의 일환으로 건립된 전통 정자입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon12" style="width: 10%;">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_0.png">
+              </div>
+              <div class="map_pin pin12">
+                <div class="tooltip top">
+                  <div class="pin_img">
+                      <img src="img/tooltip_12.jpg" alt="행주산성역사공원 주차장">
+                  </div>
+                  <div class="pin_text">
+                    <span>행주산성역사공원 주차장</span>
+                    <p>
+                      무료 주차시간: 30분 <br>
+                      기본요금: 5분당 90원 <br>
+                      2시간 초과 시: 5분당 160원 <br>
+                      1일 최대요금: 5,000원 <br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon13">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_12.png">
+              </div>
+              <div class="map_pin pin13">
+                <div class="tooltip right">
+                  <div class="pin_img">
+                      <img src="img/tooltip_13.jpg" alt="고양인재교육원">
+                  </div>
+                  <div class="pin_text">
+                    <span>고양인재교육원</span>
+                    <p>
+                      고양인재교육원은 고양시 공직자와 시민을 대상으로 미래 지향적인 역량 강화 교육과 체계적인 인재 양성 프로그램을 운영하는 전문 교육 기관입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon14">
+            <div class="map_icon">
+              <div class="map_img">
+                <img src="img/icon/map_icon/map_icon_13.png">
+              </div>
+              <div class="map_pin pin14">
+                <div class="tooltip top_right">
+                  <div class="pin_img">
+                      <img src="img/tooltip_14.jpg" alt="행주산성역사공원">
+                  </div>
+                  <div class="pin_text">
+                    <span>행주산성역사공원</span>
+                    <p>
+                      행주산성 역사공원은 임진왜란 당시 권율 장군이 행주대첩을 거둔 역사적 장소인 행주산성 인근에 조성된 친수 공간으로, 탁 트인 한강을 조망하며 산책과 휴식을 즐길 수 있는 공원입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icon_position icon15">
+            <div class="map_icon">
+              <div class="map_img" style="width: 35%;">
+                <img src="img/icon/map_icon/map_icon_14.png">
+              </div>
+              <div class="map_pin pin15">
+                <div class="tooltip right">
+                  <div class="pin_img">
+                      <img src="img/tooltip_15.jpg" alt="이가순공적비">
+                  </div>
+                  <div class="pin_text">
+                    <span>이가순공적비</span>
+                    <p>
+                      일제강점기 독립운동가이자 고양 지역의 관개·수리 사업을 개척한 양곡 이가순(1867~1943) 선생과 그의 아들 이원재의 공적을 기리기 위해 1950년에 세워진 비석입니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside class="map_info_panel">
+          <button class="panel_close">✕</button>
+          <div class="panel_img">
+            <img src="" alt="">
+          </div>
+          <div class="panel_text">
+            <span class="panel_title"></span>
+            <p class="panel_desc"></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section class="story">
+      <div class="tit">
+          <h2>행주산성 이야기</h2>
+          <p>선조들의 숭고한 정신과 역사적 기록을 만나보세요.</p>
+        </div>
+        <div class="back_txt">
+          <p>幸州之戰&ensp;權慄以數千兵拒倭 <br>
+            十餘萬&ensp;矢盡則以石擊之  <br>
+            婦女負石助戰&ensp;遂大破之</p>
+        </div>
+        <div class="tab_btn">
+          <ul>
+            <li class="on">행주산성역사</li>
+            <li>행주대첩 이야기</li>
+            <li>권율 장군 이야기</li>
+          </ul>
+        </div>
+        <div class="story_card">
+          <div class="card active">
+            <div class="card_img">
+              <img src="img/card_01.jpg" alt="행주산성 역사 소개 이미지">
+            </div>
+            <div class="card_txt">
+              <h3>조선시대 탁월한 전략지 행주산성</h3>
+              <p>
+                행주산성은 124.9m의 낮은 덕양산이 평야지대로 이어져 사방이 노출되어 있다.
+                 그럼에도 주요한 요새역할을 한 것은 행주산성의 특별한 지형 때문이었다.
+                 서남쪽은 한강이 흐르고 동북쪽은 창릉천과 습지대로 서남과 동남이 천연의 해자 역할을 하였으며 동면과 남면은 경사가 급한 험준한 지역이었다.
+                 이로 인하여 적의 공격 지역은 매우 한정된 부분이었다.
+                 또한 주위로부터 격리되어 있었지만 강으로 후방 지원이 가능했으며 한양에서 좀 떨어진 거리는 왜군을 유인하기에도 적합했던 것이다.
+              </p>
+              <a href="#">
+	                <input type="button" value="더보기">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_img">
+              <img src="img/card_02.jpg" alt="행주대첩 이야기 소개 이미지">
+            </div>
+            <div class="card_txt">
+              <h3>임진왜란 판도를 바꾼 행주대첩</h3>
+              <p>
+                행주대첩은 임진왜란 당시 권율(權慄) 장군이 고양 행주산성에서 일본군을 대파한 전투이다.이 역사적 사건은 한산도대첩, 진주대첩과 함께 임진왜란 3대 대첩으로 불린다. 1592년 4월 14일 일본의 조선침략은 우리나라 역사에 커다란 영향을 끼쳤다. 이로 인하여 조선의 오백 년 역사는 임진왜란 전기와 임진왜란 후기로 양분되는 역사적 분기점을 맞게 된다.
+              </p>
+              <a href="#">
+	                <input type="button" value="더보기">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_img">
+              <img src="img/card_03.jpg" alt="권율 장군 이야기 소개 이미지">
+            </div>
+            <div class="card_txt">
+              <h3>행주대첩 승리로 조선을 지켜낸 권율 장군</h3>
+              <p>
+                1592년 4월 임진왜란이 일어나자 전라도 광주목사로 전라도 관찰사 이광과 방어사 곽영이 4만여 명의 군사를 모집할 때 그 휘하의 장수가 되었다. 이광의 군대가 한양 수복을 위하여 북진하면서 많은 군사를 잃자 권율 장군은 군사를 이끌고 광주로 퇴각하여 남은 군사와 의병 1천 명을 모아 다시 북진하여 전주로 쳐들어오는 왜적을 ‘이치고개’(충청남도 금산)에서 물리쳤다. 이치대첩은 임진왜란 당시 패배만 거듭하던 조선군이 처음으로 크게 승리한 육전으로 그 공으로 권율 장군은 전라도 순찰사가 되었다.
+              </p>
+              <a href="#">
+	                <input type="button" value="더보기">
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="history">
+      <div class="tit">
+        <h2>행주산성 역사유산</h2>
+        <p>행주산성의 유산으로 행주대첩의 의미를 만나보세요.</p>
+      </div>
+      <div class="history_slide">
+        <div class="slide">
+          <ul>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_01.png" alt="행주산성 대첩문">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 대첩문</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_02.png" alt="행주산성 권율 도원수 상">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 권율 도원수 상</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_03.png" alt="행주산성 충훈정">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 충훈정</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_04.png" alt="행주산성 충장사">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 충장사</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_05.png" alt="행주산성 전사청">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 전사청</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_06.png" alt="행주산성 대첩기념관">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 대첩기념관</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_07.png" alt="행주산성 진강정">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 진강정</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_08.png" alt="행주산성 덕양정">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 덕양정</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_09.png" alt="행주산성 행주대첩비">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 행주대첩비</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_10.png" alt="행주산성 충의정">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 대첩문</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_11.png" alt="행주산성 홍상문">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 대첩문</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="slide_box">
+                  <img src="img/slide_12.png" alt="행주산성 토성">
+                </div>
+                <div class="text_box">
+                  <span>행주산성 대첩문</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="slide_nav">
+          <div class="slide_btn">
+            <ul>
+              <li><img src="img/icon/icon_left.png" alt="슬라이드 왼쪽 이동 버튼"></li>
+              <li><img src="img/icon/icon_right.png" alt="슬라이드 오른쪽 이동 버튼"></li>
+            </ul>
+          </div>
+          <div class="slide_counter">
+            <span class="counter_current">01</span>
+            <div class="counter_bar">
+              <div class="counter_bar_fill"></div>
+            </div>
+            <span class="counter_total">12</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quick_menu">
+      <div class="quick_menu_bg"><img src="img/icon/bg_icon.png"></div>
+      <div class="quick_menu_btn">
+        <ul class="q_btn_list">
+          <li class="btn_item">
+            <a href="#">
+              <div class="circle_wrapper">
+                <img src="img/icon/01_icon_directions.png" alt="오시는 길">
+              </div>
+              <span>오시는 길</span>
+            </a>
+          </li>
+          <li class="btn_item">
+            <a href="#">
+              <div class="circle_wrapper">
+                <img src="img/icon/02_icon_event.png" alt="행사">
+              </div>
+              <span>행사</span>
+            </a>
+          </li>
+          <li class="btn_item">
+            <a href="#">
+              <div class="circle_wrapper">
+                <img src="img/icon/03_icon_quest.png" alt="주변 명소">
+              </div>
+              <span>주변 명소</span>
+            </a>
+          </li>
+          <li class="btn_item">
+            <a href="#">
+              <div class="circle_wrapper">
+                <img src="img/icon/04_icon_community.png" alt="커뮤니티">
+              </div>
+              <span>커뮤니티</span>
+            </a>
+          </li>
+        </ul>   
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer_inner">
+      <div class="f_logo">
+        <ul>
+          <li><a href="#"><img src="img/logo/f_logo.png"></a></li>
+          <li><a href="#"><img src="img/logo/f_goyang.png"></a></li>
+          <li><a href="#"><img src="img/logo/f_visitgoyang.png"></a></li>
+        </ul>
+      </div>
+      <div class="f_left">
+        <div class="f_address">
+          <span>오시는 길</span>
+          <p>경기도 고양시 덕양구 행주로15번길 89 (행주외동)</p>
+        </div>
+        <div class="f_enquiry">
+          <ul>
+            <li><span>민원콜센터(시청)</span>031-909-9000</li>
+            <li><span>수어상담(경기도)</span>070-7947-0221</li>
+            <li>(우) 10460, 경기도 고양시 덕양구 고양시청로10</li>
+          </ul>
+        </div>
+        <div class="Copyright">
+          <p>Copyright 2021 GOYANG SPECIAL CITY. All rights reserved.</p>
+        </div>
+      </div>
+      <div class="f_right">
+        <ul>
+            <li class="open">하절기<br><span>(3월~10월)</span></li>
+            <li class="line"></li>
+            <li class="time">09:00 ~ 18:00 (입장마감 17:00)</li>
+          </ul>
+          <ul>
+            <li class="open">동절기<br><span>(11월~2월)</span></li>
+            <li class="line"></li>
+            <li class="time">09:00 ~ 17:00 (입장마감 16:00)</li>
+          </ul>
+          <ul>
+            <li class="open">야간개장<br><span>(3월~10월)</span></li>
+            <li class="line"></li>
+            <li class="time">매월 2·4째주 토요일<br>18:00 ~ 22:00 (입장마감 21:00)</li>
+          </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
