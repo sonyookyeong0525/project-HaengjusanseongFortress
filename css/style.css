@@ -1565,6 +1565,11 @@ footer .footer_inner .f_right ul li.time {
         width: 240px;
     }
 
+    .map_pin {
+        width: 5px;
+        height: 5px;
+    }
+
      /* story */
 
      .story {
